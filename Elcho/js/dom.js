@@ -60,7 +60,7 @@ const text = content.innerHTML;
 console.log(content);
 
 content.innerHTML = `						
-<div class="boxes">
+<div class="boxes animate__animated animate__backInUp">
 <div class="box">
 	<div class="box__title">
 		<h1>Задание №1</h1>

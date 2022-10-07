@@ -12,3 +12,7 @@
 	font-family: "Roboto";
 	src: url("../fonts/Roboto/Roboto-Regular.ttf");
 }
+@font-face {
+	font-family: "Tapestry";
+	src: url("../fonts/Tapestry/Tapestry-Regular.ttf");
+}

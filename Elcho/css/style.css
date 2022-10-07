@@ -24,6 +24,7 @@
   text-align: center;
 
   font-size: 50px;
+  font-family: "Tapestry";
 
   background: url(../img/1.gif);
   background-size: cover;
@@ -34,7 +35,7 @@
   /* -webkit-text-stroke: 2px rgba(0, 0, 0, 0.550); */
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 980px) {
   .header h1 {
     font-size: 30px;
   }
@@ -49,12 +50,6 @@
 @media (max-width: 570px) {
   .header h1 {
     font-size: 20px;
-  }
-}
-
-@media (max-width: 470px) {
-  .header h1 {
-    font-size: 17px;
   }
 }
 
@@ -121,5 +116,8 @@
 .footer h3 {
   margin: 15px 0;
   text-align: center;
+}
+.footer a{
+  text-decoration: none;
   color: white;
 }

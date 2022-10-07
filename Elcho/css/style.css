@@ -1,0 +1,125 @@
+/* ! Начало */
+.wrapper {
+  /* background: linear-gradient(to right, #ff01d9, #029ddf, #6702ff); */
+  background: rgb(60, 0, 95);
+}
+
+.wrap {
+  background: url(../img/pattern.svg);
+  background-attachment: fixed;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* ! header */
+.header {
+  background-color: rgba(240, 46, 169, 0.308);
+  box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+}
+
+.header h1 {
+  padding: 15px 0;
+  text-align: center;
+
+  font-size: 50px;
+
+  background: url(../img/1.gif);
+  background-size: cover;
+  font-weight: bold;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  text-shadow: 1px 1px 1px rgb(0 0 0 / 11%);
+  /* -webkit-text-stroke: 2px rgba(0, 0, 0, 0.550); */
+}
+
+@media (max-width: 1200px) {
+  .header h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 720px) {
+  .header h1 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 570px) {
+  .header h1 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 470px) {
+  .header h1 {
+    font-size: 17px;
+  }
+}
+
+
+/* ! main */
+/* ! section */
+#elcho {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1280px;
+  width: 100%;
+}
+
+.boxes {
+  margin: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: white;
+}
+
+@media (max-width: 1015px) {
+  .boxes {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.box {
+  margin: 20px 0;
+  padding: 30px;
+  width: 300px;
+  height: 400px;
+  background-color: rgba(240, 46, 169, 0.308);
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+.box__title {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 25px 0;
+}
+
+.box__title h1 {
+  background: url(../img/5.gif);
+  font-weight: bold;
+  text-shadow: rgb(0 0 0 / 0%) 1px 1px 3px;
+}
+
+.box__text {
+  margin: 12px 0;
+
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* ! footer */
+.footer {
+  margin-top: auto;
+  background-color: rgba(240, 46, 169, 0.308);
+}
+
+.footer h3 {
+  margin: 15px 0;
+  text-align: center;
+  color: white;
+}
